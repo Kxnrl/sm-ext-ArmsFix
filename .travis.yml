@@ -1,0 +1,13 @@
+language: cpp
+
+os:
+  - windows
+
+env:
+  - BRANCH=1.10-dev
+
+before_script:
+  - choco install -y visualstudio2017buildtools --package-parameters "--add Microsoft.VisualStudio.Workload.VCTools --add Microsoft.VisualStudio.ComponentGroup.NativeDesktop.Win81 --add Microsoft.VisualStudio.Component.WinXP";
+
+script:
+  - ./build.bat

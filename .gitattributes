@@ -1,0 +1,12 @@
+* text=auto
+* eol=lf
+
+*.txt eol=lf
+*.php eol=lf
+*.inc eol=lf
+*.css eol=lf
+*.sp  eol=lf
+*.js  eol=lf
+*.cpp eol=lf
+*.h   eol=lf
+
